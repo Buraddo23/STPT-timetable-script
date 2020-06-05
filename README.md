@@ -23,14 +23,11 @@
 - *M49*: school specific timeslots
 - **V1** should be created manually, the end station is in the middle, so the routes should relate to that (catedrala mitropolitană)
 
-**Bold lines need complete manual creation of timetable**
-
-_**Mixed lines produce correct data partially**_
-
+**Bold lines need complete manual creation of timetable**  
+_**Mixed lines produce correct data partially**_  
 *Italic lines need minimal intervention on output*
 
 ## Additional information:
 
-School lines are out of scope for the project.
-
+School lines are out of scope for the project.  
 Lines not mentioned here have been tested and appear to work correctly
