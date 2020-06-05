@@ -1,6 +1,5 @@
 #!/bin/bash
-shopt -s extglob
-rm -vr !(update_timetables.sh|parser.pl)
+rm -vr */
 wget -r -l 1 -A.pdf http://stpt.ro/download/download.html
 mv stpt.ro/grafice/ pdf_files
 rm -r stpt.ro/

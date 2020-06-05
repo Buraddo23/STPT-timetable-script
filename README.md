@@ -1,18 +1,14 @@
 ## TO DO:
 
 - E1, E3-3, E4, E4b, E6, M11, M14, M49 have separate columns for weekend, currently not implemented
-- Integration to scheduled update and notifications of changes
+- Integration of scheduled update and notification of changes
 
-## Additional information:
-
-School lines are out of scope for the project.
-
-### Bugs related to the current timetables (06.2020)
+## Bugs related to the current timetables (06.2020)
 - 29/M29, M30, M35, M42: last timeslot incorrect due to mispelling
 - E2: weekend time row is delayed, generates a lot of mistakes
 - E7: first timeslot ignored
 
-### Lines that need manual work:
+## Lines that need manual work:
 - **28**: due to combination with 21 in weekends
 - *32*: weekend has 2 variants, it is encoded in the graph as colored background (lost during conversion)
 - 33, 40, trolleys & trams have intervals, needs different solution
@@ -25,13 +21,16 @@ School lines are out of scope for the project.
 - _**M35**_: one timeslot only during school (currently ignored by script). The line had a variant, due to this, the b side doesn't generate a timetable.
 - **M36, M41, M44, M46, M47, M48** have variants
 - *M49*: school specific timeslots
-- **V1** should be created manually, the end station is in the middle, so the routes should relate to that (catedrală)
+- **V1** should be created manually, the end station is in the middle, so the routes should relate to that (catedrala mitropolitană)
 
 **Bold lines need complete manual creation of timetable**
+
 _**Mixed lines produce correct data partially**_
+
 *Italic lines need minimal intervention on output*
 
 ## Additional information:
 
 School lines are out of scope for the project.
+
 Lines not mentioned here have been tested and appear to work correctly
