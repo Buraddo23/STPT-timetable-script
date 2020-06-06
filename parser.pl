@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use strict;
 #use warnings;
-use Data::Printer;
 
 my $input_file_name = shift or die "Usage: $0 INPUT_FILE\n";
 my $work_file_name;

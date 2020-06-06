@@ -1,9 +1,6 @@
 School lines are out of scope for the project.  
 Lines not mentioned here have been tested and appear to work correctly
 
-## TO DO:
-- Integration of scheduled update and notification of changes
-
 ## Bugs related to the current timetables (06.2020)
 - 29/M29, M30, M35, M42: last timeslot incorrect due to mispelling
 - E2, E4: weekend time row is delayed, generates a lot of mistakes
